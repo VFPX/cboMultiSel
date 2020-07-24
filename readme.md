@@ -2,8 +2,9 @@ VFP Component Class cboMultiSel
 ===============================
 Multi-Select Combobox Control
 -----------------------------
-G. Willcockson
-March 2020
+
+![Image of control](https://github.com/VFPX/cboMultiSel/images/pic1.jpg)
+
 
 A class that defines a combo-style control for selecting multiple values from a list and storing as a single, character-separated string. This was inspired by, and is a total rebuild of, a similar control floating around: "multiSelCombo".
 
@@ -24,3 +25,8 @@ Usage, briefly:
 		.RowSource = "CSRC.CD, NME"			&& the data columns for the picklist (set this  last)
 
 See the accompanying test form, **cboMultiSelTest.sc?**, for complete examples.
+
+![Image of test screen](https://github.com/VFPX/cboMultiSel/images/pic2.jpg)
+
+G. Willcockson
+March 2020
