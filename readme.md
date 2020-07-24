@@ -9,7 +9,7 @@ A class that defines a combo-style control for selecting multiple values from a 
 
 The class is designed to be all-in-one (clutter-free) where there are no secondary/ancillary files required beyond the FoxPro and Windows APIs.
 
-Useage, quickly:
+Usage, briefly:
 
 	* Drop this control on a form and configure its rowSource property (must be 2-alias, 3-SQL statement, or 6-fields)
 	* Configure the instance, say, from an init event:
