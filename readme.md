@@ -29,4 +29,18 @@ See the accompanying test form, **cboMultiSelTest.sc?**, for complete examples.
 ![Image of test screen](images/pic2.jpg)
 
 G. Willcockson
-March 2020
+
+## Releases
+
+### 2022-07-11
+
+* Fixed not being able to close the form using Thisform.Release after opening the combobox.
+* Add text equivalents of binary files to the repository.
+
+### 2020-07-24
+
+* Updated documentation
+
+### March 2020
+
+* Initial release
