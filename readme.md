@@ -32,6 +32,22 @@ G. Willcockson
 
 ## Releases
 
+### 2023-04-12
+
+Enhanced to includes the following:
+
+- Ability to paste a separated value string into the combo which will select values in the underlying list.
+
+> - Values in the separated value string that don't have a match in the defining list will be removed
+
+- Typing characters while focused on the control can fire the dropdown and search for the typed character(s).
+
+> - Requires specifying up to two data column indexes that will be used for value compares (via LOCATE)
+> - Only valid for text based column values - characters 0-9, a-Z
+> - Match is case-insensitive
+> - Match is from the beginning of the value: substring  matches not (yet) supported
+> - Matching starts over at beginning of list after no more matches
+
 ### 2022-07-11
 
 * Fixed not being able to close the form using Thisform.Release after opening the combobox.
