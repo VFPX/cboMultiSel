@@ -62,10 +62,13 @@ G. Willcockson
 
 ## Releases
 
+<<<<<<< HEAD
 ### 2023-08-17
 
 Introduced new MultiSel control
 
+=======
+>>>>>>> 6ac0e832cbe28e0c71dee4c9148b4402b02e0592
 ### 2023-04-12
 
 Enhanced to includes the following:
